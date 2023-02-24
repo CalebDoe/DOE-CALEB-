@@ -1,0 +1,43 @@
+# A dictionary if available cars and their prices 
+availableVehicles={
+    "Toyata 4 Runner":41000,
+    "Nissan Navara":35000,
+    "Toyota Highlander":36000,
+    "Honda Civic":24000,
+    "Honda C-RV":31000,
+    "Nissan Hardbody":30000,
+    "Kia Sonata":29000,
+    "Hyundai Elantra":25000,
+    "Toyota Corolla":21000,
+    "bentley":283000,
+    "Ford Maverick":22195,
+    "Toyota Aviensis":19000,
+    "Kia Picanto":14000,
+    "Rolls Royce Boat Tail":28000000,
+    "Toyota Yaris":19000,
+    "Chevrolet 2022 Malibu":35000, 
+    "Nissan Frontier":28690,
+    "Land Cruiser V8":85000,
+    "Land Rover Discovery":59000,
+    "Range Rover 2023":104900,
+    "Audi 27-28 City":34900,
+    "Ford F-150 XLT":41800,
+    "Mercedes Benz C300":42650,
+    "Kantanka Omama Luxury 4by4":43000,
+    "Toyota RAV4":31975,
+    "Chevrolet Silverado":34600,
+    "Jeep Grand Cherokee":44000,
+    "Honda Accord":28000,
+    "Nissan Rouge":32000,
+    "Nissan Senta":22000,
+}
+#let user input a vehicle brand
+VehicleName=input("Please enter the vehicle name: ")
+#check if VehicleName is available in the dictionary
+if VehicleName in availableVehicles:
+    print("Yes, the vehicle is available. ")
+#if vehicle is available, what's its price
+if VehicleName in availableVehicles:
+    print("The price is $", availableVehicles[VehicleName])
+else:
+    print("No,the vehicle is not available.Please come back in 2 weeks time.")
